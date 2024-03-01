@@ -1,5 +1,5 @@
 from surmount.base_class import Strategy, TargetAllocation
-from surmount.data import OHLCV
+#from surmount.data import OHLCV
 from surmount.technical_indicators import SMA
 import pandas as pd
 
