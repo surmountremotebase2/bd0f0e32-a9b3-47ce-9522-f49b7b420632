@@ -7,7 +7,7 @@ class TradingStrategy(Strategy):
     def __init__(self):
         # Define pairs of stocks, where the first is in the S&P 500 and the second isn't
         self.stock_pairs = [
-            ('AAPL', 'CRUS'), ('MSFT', 'MDB'), ('AMZN', 'ETSY'),
+            ('AAPL', 'CRUS'), ('MSFT', 'MDB'), ('AMZN', 'ETSY'), ('MSFT', 'ADBE'), ('GOOGL', 'YHOO'), ('MSFT', 'DDOG'), ('JPM', 'TFC'), ('WMT', 'KR'), ('PG', 'KMB'), ('MCD', 'DPZ'), ('BA', 'SAVE'), ('UNH', 'HUM'), ('XOM', 'COP'), ('DIS', 'ROKU'), ('LLY', 'MRNA'), ('FB', 'PINS'), ('VZ', 'TMUS'), ('NVDA', 'AMD'), ('PFE', ' BIIB'), ('INTC', 'MRVL'), ('KO', 'MNST'), ('JNJ', 'MDT'), ('V', 'PYPL'), ('COST', 'BJ')
             # Add additional pairs up to 50 as per the requirement
         ]
         # Historical price movement window in days
